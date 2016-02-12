@@ -1,0 +1,11 @@
+var Vote = db.define('vote',{
+    upVote: Sequelize.BOOLEAN
+});
+
+var : sets up a variable
+Vote : name of the variable
+db : library of sequelize functions
+define : function to map the model to the table
+upvote : name of the col
+Sequelize.BOOLEAN : datatype
+
